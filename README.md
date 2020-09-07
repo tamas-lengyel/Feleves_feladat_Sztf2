@@ -61,4 +61,6 @@ A termekLista.txt nevű fájlba az alábbiak szerint kell feltölteni:
  - Feltöltés fájlba Termek esetén: (formátum: név,ár,adószám)
    pl      Fenykepezogep;60000;1234
 
+**FONTOS!** 
+A termékek adószámának meg kell egyeznie annak az eladónak az adószámával, ahova fel akarjuk venni.
 Ahhoz, hogy működjön az Ajándékozás funkció, előbb a Vásárlás funkcióval meg kell venni legalább egy terméket.
