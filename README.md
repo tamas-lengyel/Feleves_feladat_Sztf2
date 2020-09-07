@@ -47,18 +47,18 @@ Ezután készítse el az árukezelő rendszert, amely a következőképpen épü
 
 Az eladoLista.txt és vevoLista.txt fajlokba az alábbiak szerint kell feltölteni tagokat:
 
- -Feltöltés fájlba Magánszemély esetén: (formátum: 0,név,adószám)
-  pl      0;Ostoros Bela;3333
+ - Feltöltés fájlba Magánszemély esetén: (formátum: 0,név,adószám)
+   pl      0;Ostoros Bela;3333
 
- -Feltöltés fájlba KFT esetén: (formátum: 1,név,kapcsolattarto neve,adószám)
-  pl      1;Media Markt;1234;Halasz Zsuzsa;1987
+ - Feltöltés fájlba KFT esetén: (formátum: 1,név,kapcsolattarto neve,adószám)
+   pl      1;Media Markt;1234;Halasz Zsuzsa;1987
 
- -Feltöltés fájlba ZRT esetén: (formátum: 2,név,kapcsolattarto neve,adószám)
-  pl      2;Media Markt;1234;Halasz Zsuzsa;1987
+ - Feltöltés fájlba ZRT esetén: (formátum: 2,név,kapcsolattarto neve,adószám)
+   pl      2;Media Markt;1234;Halasz Zsuzsa;1987
 
 A termekLista.txt nevű fájlba az alábbiak szerint kell feltölteni:
 
- -Feltöltés fájlba Termek esetén: (formátum: név,ár,adószám)
-  pl      Fenykepezogep;60000;1234
+ - Feltöltés fájlba Termek esetén: (formátum: név,ár,adószám)
+   pl      Fenykepezogep;60000;1234
 
 Ahhoz, hogy működjön az Ajándékozás funkció, előbb a Vásárlás funkcióval meg kell venni legalább egy terméket.
