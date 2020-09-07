@@ -8,34 +8,34 @@
 	
 	Készítse el a szükséges osztályokat:
 	
-		Legyen egy ITranzakciókbanRésztvevő interfész, amely Adószám, Kontaktszemély, Értékelés
+		- one Legyen egy ITranzakciókbanRésztvevő interfész, amely Adószám, Kontaktszemély, Értékelés
 		(1-5) és Terméklista tulajdonságok megvalósítását írja elő. Az Eladó és a Vásárló osztályok
 		valósítsák meg ezt az interfészt.
 		
-		Legyen egy tetszőleges osztályhierarchia eladókhoz és vásárlókhoz is. Pl. eladó és vásárló is
+		- two Legyen egy tetszőleges osztályhierarchia eladókhoz és vásárlókhoz is. Pl. eladó és vásárló is
 		lehet magánszemély vagy jogi személy, a jogi személyen belül is vannak elemek. Nem
 		feltétlenül kell hogy az eladók és vásárlók pontosan ugyanolyan típusú elemek lehessenek.
 		Valósítsa meg lehetőleg különbözőképpen az ITranzakciókbanRésztvevő által előírt
 		tulajdonságokat (pl. magánszemély Kontaktszemélye biztosan nem más, mint ő maga; eladók
 		esetében az értékelés az eladott termékek számától függjön, stb.)
 		
-		Legyenek Termékek. Az eladókban láncolt listában legyenek tárolva az általuk eladásra kínált
+		- three Legyenek Termékek. Az eladókban láncolt listában legyenek tárolva az általuk eladásra kínált
 		Termékek, a vásárlókban pedig az általuk megvásárolt termékek. A Termékek valósítsák meg
 		az IComparable interfészt név szerinti rendezés céljából.
 		
 	Ezután készítse el az árukezelő rendszert, amely a következőképpen épüljön fel:
 		
-		A rendszerbe lehessen eladókat és vásárlókat regisztrálni. Mindkettőt láncolt listában tárolja
+		-one A rendszerbe lehessen eladókat és vásárlókat regisztrálni. Mindkettőt láncolt listában tárolja
 		rendszer.
 		
-		Lehessen regisztrálni az eladókhoz új termékeket – a rendszer dobjon kivételt, hogyha olyan
+		 -two Lehessen regisztrálni az eladókhoz új termékeket – a rendszer dobjon kivételt, hogyha olyan
 		eladóhoz akarunk terméket regisztrálni, aki nem szerepel az eladólistában. Legyen lehetőség
 		az összes eladó áru kilistázására.
 		
-		A vevők tudjanak megvenni termékeket eladóktól (tetszőleges módon). Ekkor a termék
+		- three A vevők tudjanak megvenni termékeket eladóktól (tetszőleges módon). Ekkor a termék
 		kerüljön át az eladók listájából az ő listájukba.
 		
-		Biztosítsunk a rendszerben funkciót arra, hogy a sok terméket megvásárló vevőket jutalmazni
+		- four Biztosítsunk a rendszerben funkciót arra, hogy a sok terméket megvásárló vevőket jutalmazni
 		tudjuk. Időnként meghatározott mennyiségű ajándékot (Terméket) akarunk közöttük
 		kiosztani ingyen. Minden vevőnek pontosan annyi darab Terméket adunk, amennyi az
 		értékelése. Osszuk szét a vevők között a Termékeket úgy, hogy lehetőleg azoknak adjunk,
