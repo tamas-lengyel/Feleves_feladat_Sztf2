@@ -2,22 +2,22 @@
 
 ## Feladat leírása:
 
-	Vatera-szerű online vásárlási felületet szeretnénk készíteni. A rendszerrel szemben elvárás, hogy
-	különféle termékeket és szolgáltatásokat tudjon kezelni, azok között gyors keresésre legyünk
-	képesek, és segítséget nyújtson az eladásra kínált termékek vásárlók közötti kiosztásában is.
+Vatera-szerű online vásárlási felületet szeretnénk készíteni. A rendszerrel szemben elvárás, hogy
+különféle termékeket és szolgáltatásokat tudjon kezelni, azok között gyors keresésre legyünk
+képesek, és segítséget nyújtson az eladásra kínált termékek vásárlók közötti kiosztásában is.
 	
-	Készítse el a szükséges osztályokat:
+Készítse el a szükséges osztályokat:
 	
-		- Legyen egy ITranzakciókbanRésztvevő interfész, amely Adószám, Kontaktszemély, Értékelés
-		(1-5) és Terméklista tulajdonságok megvalósítását írja elő. Az Eladó és a Vásárló osztályok
-		valósítsák meg ezt az interfészt.
+- Legyen egy ITranzakciókbanRésztvevő interfész, amely Adószám, Kontaktszemély, Értékelés
+  (1-5) és Terméklista tulajdonságok megvalósítását írja elő. Az Eladó és a Vásárló osztályok
+  valósítsák meg ezt az interfészt.
 		
-		- Legyen egy tetszőleges osztályhierarchia eladókhoz és vásárlókhoz is. Pl. eladó és vásárló is
-		lehet magánszemély vagy jogi személy, a jogi személyen belül is vannak elemek. Nem
-		feltétlenül kell hogy az eladók és vásárlók pontosan ugyanolyan típusú elemek lehessenek.
-		Valósítsa meg lehetőleg különbözőképpen az ITranzakciókbanRésztvevő által előírt
-		tulajdonságokat (pl. magánszemély Kontaktszemélye biztosan nem más, mint ő maga; eladók
-		esetében az értékelés az eladott termékek számától függjön, stb.)
+- Legyen egy tetszőleges osztályhierarchia eladókhoz és vásárlókhoz is. Pl. eladó és vásárló is
+  lehet magánszemély vagy jogi személy, a jogi személyen belül is vannak elemek. Nem
+  feltétlenül kell hogy az eladók és vásárlók pontosan ugyanolyan típusú elemek lehessenek.
+  Valósítsa meg lehetőleg különbözőképpen az ITranzakciókbanRésztvevő által előírt
+  tulajdonságokat (pl. magánszemély Kontaktszemélye biztosan nem más, mint ő maga; eladók
+  esetében az értékelés az eladott termékek számától függjön, stb.)
 		
 		- Legyenek Termékek. Az eladókban láncolt listában legyenek tárolva az általuk eladásra kínált
 		Termékek, a vásárlókban pedig az általuk megvásárolt termékek. A Termékek valósítsák meg
